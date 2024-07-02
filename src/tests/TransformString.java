@@ -1,6 +1,6 @@
 package tests;
 
-public class InterviewProblems {
+public class TransformString {
 	
 	/*Interview problem
 		Given N Integer:
@@ -94,7 +94,7 @@ public class InterviewProblems {
 	}
 	
 	public static void main(String args[]) {
-	    InterviewProblems ip = new InterviewProblems();
+	    TransformString ip = new TransformString();
 	    int n = 11;
 		String result = ip.transformWRec(n);
 		String result2 = ip.transformWIter(n);
