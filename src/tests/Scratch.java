@@ -38,7 +38,7 @@ public static void main(String args[]) {
 	List<String> threeletterwords = list2.stream().filter((word) -> word.length() == 3)
 			.collect(Collectors.toList());
 	
-	System.out.println("Three letter workds from list 2 are:");
+	System.out.println("Three letter words from list 2 are:");
 	threeletterwords.forEach((word) -> { System.out.println(word); });
 	
 	//Test conditional
