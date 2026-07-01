@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+archivesBaseName = 'scratchPad'
+version = '1.0-SNAPSHOT' 
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'tests.Scratch'
+    }
+}
+
+dependencies {
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.19.1'
+	//Lombok
+	implementation 'org.projectlombok:lombok:1.18.42'
+} 
